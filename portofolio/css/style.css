@@ -278,6 +278,8 @@ footer{
 	padding: 5px;
 	text-align: left;
 }
+
+
 .circle{
 	background-color: #fff;
 	border:3px solid #3f37c9;
@@ -290,4 +292,10 @@ footer{
 	border-left: 2px solid #3f37c9;
 	margin: 0 10px;
     padding: 10px 0 10px 21px;
+}
+
+
+@media only screen and (max-width :600){
+.logo{
+   text-align: center;}
 }
