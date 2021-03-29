@@ -184,6 +184,7 @@ footer{
 	background-image: url(../assets/svg.svg); 
 	background-attachment: fixed;
 	position: relative;
+        overflow:hidden;
 }
 .info-content{
 	width: 100%;
