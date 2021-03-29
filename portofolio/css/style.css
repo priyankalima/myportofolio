@@ -1,4 +1,4 @@
-*{padding: 0;margin: 0;box-sizing: border-box;font-family:monospace;}
+*{padding: 0;margin: 0;box-sizing: border-box;font-family:monospace;overflow-x: hidden;}
 
 /**header**/
 header{
@@ -49,15 +49,18 @@ padding: 10px 5px;
 .section-one{
 	width: 100%;
 	height: auto;
-	padding: 10px 0 70px 0;
+	
+}
+.pd-container{
+    padding:20px 0 100px 0;
 }
 .section-one .title{
 	color: #fff;
-	padding: 10px;
-	margin-top: 10%;
+	padding: 20px;
+	
 
 }
-.title h3{
+.title h3,h2{
 	text-transform: uppercase;
 	padding: 10px;
 }
@@ -78,8 +81,9 @@ padding: 10px 5px;
 	padding: 0 0 10px 10px;
 }
 .section-one .img{
-	padding: 10px;
-	
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 /*svg custome-shape-divider*/
@@ -118,8 +122,12 @@ main{
 	padding: 20px 0;
 	text-align: center;
 }
+h5{
+   font-weight: bolder !important;
+}
 .section-two h5{
 	padding: 10px;
+	
 }
 .section-two hr{
 width: 30px;
@@ -163,8 +171,8 @@ background-color: #3f37c9 !important;
 margin-top: 10px;
 }
 .content-status{
-	background-color: #3f37c9;
-	color:#fff;
+	
+	color:#111;
 	padding: 10px;
 	margin: 10px;
 }
@@ -262,4 +270,24 @@ footer{
 }
 .fa-facebook{
 	padding: 3px;
+}
+
+
+/*experience content*/
+.exp-content{
+	padding: 5px;
+	text-align: left;
+}
+.circle{
+	background-color: #fff;
+	border:3px solid #3f37c9;
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.div-ex-content{
+	border-left: 2px solid #3f37c9;
+	margin: 0 10px;
+    padding: 10px 0 10px 21px;
 }
